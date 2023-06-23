@@ -1,0 +1,11 @@
+{
+    "discordtoken": "TOKEN",
+    "lastfmkey": "KEY",
+    "lastfmsecret": "SECRET",
+    "geniustoken": "TOKEN",
+    "rule34token": "TOKEN",
+    "googlecustomsearchapikey": "KEY",
+    "twitterkey": "KEY",
+    "twittersecret": "SECRET",
+    "twitterbearertoken": "TOKEN"
+}
