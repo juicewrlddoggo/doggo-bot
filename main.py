@@ -6,6 +6,7 @@ import random
 
 with open('config.json') as f:
     data = json.load(f)
+    CLIENTOWNERID = data["clientownerid"]
     DISCORDTOKEN = data["discordtoken"]
     LASTFMKEY = data["lastfmkey"]
     LASTFMSECRET = data["lastfmsecret"]
@@ -16,7 +17,7 @@ with open('config.json') as f:
 intents = nextcord.Intents.all()
 client = commands.Bot(command_prefix = ",", intents = intents)
 client.remove_command('help')
-client.owner_id = 532049677231849474
+client.owner_id = CLIENTOWNERID
 
 
 @client.event
