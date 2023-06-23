@@ -1,4 +1,5 @@
 {
+    "clientownerid": "ID",
     "discordtoken": "TOKEN",
     "lastfmkey": "KEY",
     "lastfmsecret": "SECRET",
